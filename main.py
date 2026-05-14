@@ -9,7 +9,7 @@ logging.basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s
 # 1. First Screen: Welcome & Free Channel Join
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     keyboard = [
-        [InlineKeyboardButton("🔘 JOIN FREE CHANNEL", url="https://t.me/apexentries")],
+        [InlineKeyboardButton("🔘 JOIN FREE CHANNEL", url="https://t.me/apexedge99")],
         [InlineKeyboardButton("✅ I Joined The Free Channel", callback_data="joined_free")]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
